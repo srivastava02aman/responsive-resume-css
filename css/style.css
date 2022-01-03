@@ -90,10 +90,10 @@ background-color: rgb(159, 172, 184);
 }
 
 .progress-bar{
-    background-color: black;
+    background-color: white;
     border-radius: 1px;
     height: 4px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .skill-name{
     padding-bottom: 0.5rem;
