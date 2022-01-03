@@ -1,3 +1,14 @@
+@media screen and (max-width >= 674px){
+.main-content{
+    grid-column: 300px 700px;
+}}
+
+@media screen and (max-width < 674px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }}
+
+
 body{
     background-color: black;
     display: block;
