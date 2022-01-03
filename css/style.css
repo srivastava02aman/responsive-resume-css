@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    display: block;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
+.left-section{
+    grid-column: span 1;
+    background-color: rgb(182, 196, 196);
+}
+
+.right-section{
+grid-column: span 1/ span 2;
+background-color: rgb(159, 172, 184);
+}
+
+.left-content{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.profile-image{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 30%;
+    border: 5px solid black;
+}
+
+.name{
+    font-size: 1.2rem 700;
+    font-weight: 11.2rem 700;
+    align-items: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 0 0.5rem;
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    background-color: #191919;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+
+}
+
+.progress-bar{
+    background-color: black;
+    border-radius: 1px;
+    height: 4px;
+    border: 1px solid black;
+}
+.skill-name{
+    padding-bottom: 0.5rem;
+    color:black;
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+}
+.icon{
+    color: black;
+    font-size: 0.75rem;
+
+}
+.skills-title{
+    text-align: center;
+    font-size: 00.75rem;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    color: black;
+}
+.personal-detail img{
+    height: 20px;
+    width: 20px;
+
+}
+.right-main-content{
+    padding: 2rem 3rem 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.about{
+    margin-left: 0.5rem;
+}
+.education-content{
+    margin-left: 0.5rem;
+}
+.education-content h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.experience-content h4{
+    text-transform: uppercase;
+    margin-left: 00.5rem;
+}
+.experience-content li{
+    margin-left: 1rem;
+}
