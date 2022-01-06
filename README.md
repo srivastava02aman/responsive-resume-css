@@ -1,1 +1,1 @@
-# responsive-resume-css
+# Responsive Resume CSS
